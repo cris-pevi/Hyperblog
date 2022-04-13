@@ -11,14 +11,14 @@ $git branch <Nombre_branch>
 $git branch
 $git checkout <Nombre_branch>
 Ctrl O + Enter + Ctrl X
- $git pull
- $git config --global user.email <email@gmail.com>
- $git config --global user.name <Cristhyan Perez>
- $git config --list
- $git diff <commit viejo> <commit nuevo>
- $git reset <commit> --soft
- $git reset <commit> --hard
- $git reset HEAD <archivo.txt>
- git checkout <commit> <archivo.txt>
+$git pull
+$git config --global user.email <email@gmail.com>
+$git config --global user.name <Cristhyan Perez>
+$git config --list
+$git diff <commit viejo> <commit nuevo>
+$git reset <commit> --soft
+$git reset <commit> --hard
+$git reset HEAD <archivo.txt>
+$git checkout <commit> <archivo.txt>
 $git merge <Nombre_branch>
 $git commit -am "descripción del commit"
