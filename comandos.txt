@@ -1,0 +1,11 @@
+$git init
+$git add <archivo.txt>
+$git commit -m "descripcion del commit"
+$git add .
+$git status
+$git show
+$git log
+$git push
+$git branch <Nombre_branch>
+$git branch
+$git checkout <Nombre_branch>
