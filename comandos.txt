@@ -38,3 +38,4 @@ $git log -S "$"
 $git log --grep="comando" -i
 $git log > log.txt
 $git branch -m nombre_rama rama_nueva
+$git merge --abort
