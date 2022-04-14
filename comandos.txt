@@ -22,3 +22,19 @@ $git reset HEAD <archivo.txt>
 $git checkout <commit> <archivo.txt>
 $git merge <Nombre_branch>
 $git commit -am "descripción del commit"
+$git config --list --show-origin
+$git log --oneline --graph
+$git checkout -b <Nombre_branch>
+$git log --stat
+$git clone url
+$git log -p
+$git shortlog
+$git shortlog <archivo.txt>
+$git log --pretty=format:"%cn hizo un commit %h el dia %cd"
+$git log -3
+$git log --after="2022-04-10" --before="today"
+$git log --author="Cristhyan Perez"
+$git log -S "$"
+$git log --grep="comando" -i
+$git log > log.txt
+$git branch -m nombre_rama rama_nueva
