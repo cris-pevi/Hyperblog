@@ -39,3 +39,43 @@ $git log --grep="comando" -i
 $git log > log.txt
 $git branch -m nombre_rama rama_nueva
 $git merge --abort
+$git checkout -b <Nombre_branch>
+$git branch -d <Nombre_branch>
+$git branch -m master main
+$git remote add origin https://github.com/CristhyanPerez/Hyperblog.git
+$git remote
+$git remote -v
+$git push origin main
+$git pull origin main
+$git config pull.rebase.false
+$git pull origin main --alow --unrelated --histories
+$git push origin main
+$ssh-keygen -t rsa -b 4096 -C "pevicristhyan@gmail.com"
+$cd .ssh
+$ls -al
+$code id_rsa.pub
+$eval $(ssh-agent -s)
+$ssh-add ~/.ssh/id_rsa
+$git remote -v
+$git remote set-url origin git@github.com:CristhyanPerez/Hyperblog.git
+$git clone <url.com>
+$git log --graph --oneline --decorate
+$alias arbolito="git log --oneline --graph --decorate"
+$arbolito
+$git tag -a v0.1 -m "Resultado de las primeras clases del curso" 402133b
+$git tag
+$git show-ref --tags
+$git pull origin main
+$git push origin main
+$git tag -d dormido
+$git push origin: refs/tags/dormido
+$git config alias.arbolito "log --all --graph --decorate --oneline"
+$git config --global alias.arbolito "log --all --graph --decorate --oneline"
+$git arbolito
+$git push origin <Nombre_branch>
+$git show -branch
+$git show -branch -all
+$gitk
+$git push origin footer header
+$git push origin --all
+$git branch -r
