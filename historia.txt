@@ -8,4 +8,6 @@ Nuevo usuario creado con el fin de entender el flujo de trabajo.
 
 Master 1
 
+Master 2
+
 El nuevo usuario contribuirá desde un fork con este proyecto open source.
